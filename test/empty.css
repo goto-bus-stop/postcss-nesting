@@ -36,3 +36,8 @@ f {
 	}
 	order: 5;
 }
+u {
+	@nest & z {
+		order: 6;
+	}
+}
